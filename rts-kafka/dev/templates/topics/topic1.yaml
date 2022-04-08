@@ -1,7 +1,7 @@
 apiVersion: kafka.strimzi.io/v1beta2
 kind: KafkaTopic
 metadata:
-  name: topicB
+  name: topic1
   labels:
     cluster: {{ .Values.cluster }}
 spec:
