@@ -3,7 +3,7 @@ kind: KafkaTopic
 metadata:
   name: topicA
   labels:
-    strimzi.io/cluster: rts-kafka
+    cluster: {{ .Values.cluster }}
 spec:
   partitions: 1
   replicas: 1
