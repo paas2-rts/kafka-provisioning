@@ -6,7 +6,7 @@ metadata:
     cluster: {{ .Values.cluster }}
 spec:
   partitions: 1
-  replicas: 1
+  replicas: 2
   config:
     retention.ms: 7200000
     segment.bytes: 10737418
